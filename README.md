@@ -21,6 +21,14 @@ Link Github:
 
 https://github.com/22091397023KartikaFelicia/OPEN-API
 
+PHP:
+
+
+
+JSON:
+
+
+
 DOKUMENTASI SCREENSHOT
 
 ![Alt text](https://github.com/22091397023KartikaFelicia/OPEN-API/blob/main/Screnshhot_folder/Cuplikan%20layar%202024-03-13%20141529.png)
@@ -31,9 +39,3 @@ DOKUMENTASI SCREENSHOT
 
 ![Alt text](https://github.com/22091397023KartikaFelicia/OPEN-API/blob/main/Screnshhot_folder/Cuplikan%20layar%202024-03-13%20141652.png)
 <h1>	 </h>
-
-PHP
-
-
-
-JSON
