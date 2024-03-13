@@ -15,7 +15,7 @@
   <h3>	PRODI D4 MANAJEMEN INFORMATIKA </h>
   <h3>	FAKULTAS VOKASI </h>
   <h3>	UNIVERSITAS NEGERI SURABAYA </h>
-  <h3>	2023 </h>
+  <h3>	2024 </h>
 </div>
 
 ![Alt text](https://github.com/22091397023KartikaFelicia/OPEN-API/blob/main/Screnshhot_folder/Cuplikan%20layar%202024-03-13%20141529.png)
