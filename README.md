@@ -14,12 +14,12 @@ Shofiyun Nawal Fajriyah (22091397027)
 
 Dosen Pengampu:
 
-<h> Andi Iwan Nurhidayat, S.Kom., M.T. </h>
+Andi Iwan Nurhidayat, S.Kom., M.T.
 
 
-<h> Link Github: </h>
+Link Github:
 
-<h> https://github.com/22091397023KartikaFelicia/OPEN-API </h>
+https://github.com/22091397023KartikaFelicia/OPEN-API
 
 
 ![Alt text](https://github.com/22091397023KartikaFelicia/OPEN-API/blob/main/Screnshhot_folder/Cuplikan%20layar%202024-03-13%20141529.png)
@@ -29,3 +29,5 @@ Dosen Pengampu:
 <h1>	 </h>
 
 ![Alt text](https://github.com/22091397023KartikaFelicia/OPEN-API/blob/main/Screnshhot_folder/Cuplikan%20layar%202024-03-13%20141652.png)
+<h1>	 </h>
+
