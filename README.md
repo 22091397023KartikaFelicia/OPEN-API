@@ -23,11 +23,11 @@ https://github.com/22091397023KartikaFelicia/OPEN-API
 
 PHP:
 
-
+https://github.com/22091397023KartikaFelicia/OPEN-API/blob/main/server.php
 
 JSON:
 
-
+https://github.com/22091397023KartikaFelicia/OPEN-API/blob/main/openapi.json
 
 DOKUMENTASI SCREENSHOT
 
