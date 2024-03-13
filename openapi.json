@@ -1,0 +1,216 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "KOSMETIK PINKY",
+      "version": "2.0.0",
+      "contact": {
+        "name": "API Kelompok 1",
+        "email": "kartikafelicia.22023@mhs.unesa.ac.id"
+      },
+      "license": {
+        "name": "Apache 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+      }
+    },
+    "servers": [
+      {
+        "url": "http://localhost:3000",
+        "description": "Development server",
+        "variables": {
+          "environment": {
+            "default": "development",
+            "description": "server environment",
+            "enum": [
+              "development",
+              "staging",
+              "production"
+            ]
+          }
+        }
+      }
+    ],
+    "paths": {
+      "/makeup": {
+        "get": {
+          "summary": "Get all makeups",
+          "description": "Get all makeups or a specific makeup by ID",
+          "parameters": [
+            {
+              "name": "id_makeup",
+              "in": "query",
+              "description": "ID of the makeup to retrieve",
+              "required": false,
+              "schema": {
+                "type": "integer"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Success",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/makeup"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "post": {
+          "summary": "Create a new makeup",
+          "description": "Create a new makeup with the provided data",
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/makeupInput"
+                }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "Success",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Message"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "/makeup/{id_makeup}": {
+        "put": {
+          "summary": "Update a makeup",
+          "description": "Update a makeup with the provided data",
+          "parameters": [
+            {
+              "name": "id_makeup",
+              "in": "path",
+              "description": "ID of the makeup to update",
+              "required": true,
+              "schema": {
+                "type": "integer"
+              }
+            }
+          ],
+          "requestBody": {
+            "required": true,
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/makeupInput"
+                }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "Success",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Message"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "delete": {
+          "summary": "Delete a makeup",
+          "description": "Delete a makeup by ID",
+          "parameters": [
+            {
+              "name": "id_makeup",
+              "in": "path",
+              "description": "ID of the makeup to delete",
+              "required": true,
+              "schema": {
+                "type": "integer"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Success",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "$ref": "#/components/schemas/Message"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "components": {
+      "schemas": {
+        "makeup": {
+          "type": "object",
+          "properties": {
+            "id_makeup": {
+              "type": "integer"
+            },
+            "nama_produk": {
+              "type": "string"
+            },
+            "harga_produk": {
+              "type": "string"
+            },
+            "tipe_produk": {
+              "type": "string"
+            },
+            "stok": {
+              "type": "integer"
+            }
+          }
+        },
+        "makeupInput": {
+          "type": "object",
+          "properties": {
+            "nama_produk": {
+              "type": "string"
+            },
+            "harga_produk": {
+              "type": "string"
+            },
+            "tipe_produk": {
+              "type": "string"
+            },
+            "stok": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "nama_produk",
+            "harga_produk",
+            "tipe_produk",
+            "stok"
+          ]
+        },
+        "Message": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "integer"
+            },
+            "status_message": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
