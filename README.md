@@ -3,6 +3,7 @@
 <h1>	 </h>
 </div>
 <h> Anggota Kelompok: </h>
+</div>
 <h> Siti Rina Sari          (22091397014) </h>
 <h> Kartika Felicia         (22091397023) </h>
 <h> Shofiyun Nawal Fajriyah (22091397027) </h>
