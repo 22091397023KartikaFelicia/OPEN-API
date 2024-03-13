@@ -1,4 +1,6 @@
+<div align="center">
 <h1>	DOKUMENTASI SCREENSHOOTS OPEN API </h>
+</div>
 
 
 
