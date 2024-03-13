@@ -3,16 +3,16 @@
 <h1>	 </h>
 </div>
 
-<h> Anggota Kelompok: </h>
+Anggota Kelompok:
 
-<h> Siti Rina Sari          (22091397014) </h>
+Siti Rina Sari          (22091397014)
 
-<h> Kartika Felicia         (22091397023) </h>
+Kartika Felicia         (22091397023)
 
-<h> Shofiyun Nawal Fajriyah (22091397027) </h>
+Shofiyun Nawal Fajriyah (22091397027)
 
 
-<h> Dosen Pengampu: </h>
+Dosen Pengampu:
 
 <h> Andi Iwan Nurhidayat, S.Kom., M.T. </h>
 
